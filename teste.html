@@ -3,21 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetCare</title>
+    <title>PetCare Premium | Banho e Tosa</title>
     <link rel="stylesheet" href="teste.css">
 </head>
+
 <body>
-    <img src="dog.webp" alt="foto de cachorro" class="fundo">
-  <header>
-    <nav class="menu">
-        <h1 class="logo">PetCare</h1>
-        <ul>
-            <li> <a href="inicio" class="btn">inicio</a></li>
-            <li> <a href="serviços" class="btn">serviços</a></li>
-            <li> <a href="sobre" class="btn">sobre</a></li>
-            <li> <a href="contato" class="btn">contato</a></li>
+
+<header>
+    <nav>
+        <h1 class="logo">PetCare <span>Premium</span></h1>
+        <ul class="menu">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#antesdepois">Antes e Depois</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#agendamento">Contato</a></li>
         </ul>
     </nav>
-  </header>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+    <div>
+        <h2>Cuidado Premium Para Seu Pet</h2>
+        <p>Banho, tosa e serviços exclusivos com qualidade profissional.</p>
+        <a href="#agendamento" class="cta">Agendar Agora</a>
+    </div>
+
+    <!-- HERO BASE64 -->
+    <img 
+    class="hero-img"
+    alt="Pet"
+    src="/img/hero.webp" />
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos">
+    <h2 class="titulo">Serviços</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img alt="Banho"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMzAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCBmaWxsPSIjMTExIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkJBTkhPPC90ZXh0Pjwvc3ZnPg==" />
+            <h3>Banho Premium</h3>
+        </div>
+
+        <div class="card">
+            <img alt="Tosa"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMzAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCBmaWxsPSIjMjIyIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPlRPU0E8L3RleHQ+PC9zdmc+" />
+            <h3>Tosa Completa</h3>
+        </div>
+
+        <div class="card">
+            <img alt="Hidratação"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMzAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjM2MzYzNjIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkhJRFJBVEHDs08gPC90ZXh0Pjwvc3ZnPg==" />
+            <h3>Hidratação Especial</h3>
+        </div>
+
+        <div class="card">
+            <img alt="Spa"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMzAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cmVjdCBmaWxsPSIjMDAwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPlNQQTwvdGV4dD48L3N2Zz4=" />
+            <h3>Spa Relaxante</h3>
+        </div>
+    </div>
+</section>
+
+<!-- ANTES E DEPOIS -->
+<section id="antesdepois">
+    <h2 class="titulo">Antes e Depois</h2>
+
+    <div class="galeria">
+        <img alt="Antes"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjMzMzIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFOVEVTPC90ZXh0Pjwvc3ZnPg==" />
+
+        <img alt="Depois"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjMTEwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkRFUE9JUzwvdGV4dD48L3N2Zz4=" />
+
+        <img alt="Antes 2"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjNDQ0IiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkFOVEVTIDwvdGV4dD48L3N2Zz4=" />
+
+        <img alt="Depois 2"
+        src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCBmaWxsPSIjMDAwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZpbGw9IiNkNGFmMzciIHRleHQtYW5jaG9yPSJtaWRkbGUiPkRFUE9JUzI8L3RleHQ+PC9zdmc+" />
+    </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos">
+    <h2 class="titulo">Depoimentos</h2>
+
+    <div class="grid depo-grid">
+        <div class="dep-card">⭐⭐⭐⭐⭐<p>“Atendimento excelente!” – Mariana</p></div>
+        <div class="dep-card">⭐⭐⭐⭐⭐<p>“Muito bom!” – Carlos</p></div>
+        <div class="dep-card">⭐⭐⭐⭐⭐<p>“Recomendo!” – Ana</p></div>
+    </div>
+</section>
+
+<!-- FORMULÁRIO -->
+<section id="agendamento">
+    <h2 class="titulo">Agendar Atendimento</h2>
+
+    <form id="form-agendar">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="text" id="telefone" placeholder="Telefone" required>
+        <input type="text" id="pet" placeholder="Tipo do pet" required>
+
+        <select id="servico">
+            <option>Banho</option>
+            <option>Tosa</option>
+            <option>Hidratação</option>
+            <option>Spa</option>
+        </select>
+
+        <button class="cta">Enviar no WhatsApp</button>
+    </form>
+</section>
+
+<footer>
+    <p>PetCare Premium © Todos os direitos reservados</p>
+</footer>
+
+<a href="https://wa.me/5511999999999" class="whatsapp">💬</a>
+
+<script src="js/script.js"></script>
 </body>
 </html>
+
