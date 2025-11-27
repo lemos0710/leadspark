@@ -1,0 +1,46 @@
+body {
+   margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(dog.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header {
+    background: rgb(0, 0, 0);
+    box-shadow: 0 2px 6px rgba(red, green, blue, alpha);
+}
+.menu {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+.menu .logo{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(250, 219, 45);
+    left: 30px;
+    position: absolute;
+}
+.menu ul{
+    color: aliceblue;
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+    list-style: none;
+}
+.btn{
+    color: rgb(250, 219, 45);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 25px; /*é o espaçamento botão */
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
