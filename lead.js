@@ -28,3 +28,10 @@ document.getElementById("form-agendar").addEventListener("submit", function (e) 
 
   console.log("Formulário enviado!");
 });
+// ===== MENU MOBILE =====
+const btnMobile = document.getElementById("btn-mobile");
+const menu = document.getElementById("menu");
+
+btnMobile.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
