@@ -14,7 +14,7 @@
         <h1 class="logo">PetCare <span>Premium</span></h1>
 
         <!-- Botão hamburguer para celular -->
-        <button class="btn-mobile" id="btn-mobile">☰</button>
+        <button class="btn-mobile" id="btn-mobile" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">☰</button>
 
         <ul class="menu" id="menu">
             <li><a href="#inicio">Início</a></li>
@@ -25,6 +25,8 @@
         </ul>
     </nav>
 </header>
+
+<main>
 
 
 <!-- HERO -->
@@ -39,7 +41,7 @@
     <img 
     class="hero-img"
     alt="Pet"
-    src="/img/hero.webp" />
+    src="img/hero.webp" >
 </section>
 
 <!-- SERVIÇOS -->
@@ -50,25 +52,25 @@
 
         <div class="card">
             <img alt="Banho"
-            src="img/cachorrobanho.jpg" />
+            src="img/cachorrobanho.jpg" >
             <h3>Banho Premium</h3>
         </div>
 
         <div class="card">
             <img alt="Tosa"
-            src="img/cachorro_tosar.webp" />
+            src="img/cachorro_tosar.webp" >
             <h3>Tosa Completa</h3>
         </div>
 
         <div class="card">
             <img alt="Hidratação"
-            src="img/Dando-banho-no-cachorro.jpg" />
+            src="img/Dando-banho-no-cachorro.jpg" >
             <h3>Hidratação Especial</h3>
         </div>
 
         <div class="card">
             <img alt="Spa"
-            src="img/cachorro-pepio.avif" />
+            src="img/cachorro-pepio.avif" >
             <h3>Spa Relaxante</h3>
         </div>
     </div>
@@ -80,16 +82,16 @@
 
     <div class="galeria">
         <img alt="Antes"
-        src="img/antes1.png" />
+        src="img/antes1.png" >
 
         <img alt="Depois"
-        src="img/depois1.png" />
+        src="img/depois1.png" >
 
         <img alt="Antes 2"
-        src="img/antes2.png" />
+        src="img/antes2.png" >
 
         <img alt="Depois 2"
-        src="img/depois2.png" />
+        src="img/depois2.png" >
     </div>
 </section>
 
@@ -110,7 +112,7 @@
 
     <form id="form-agendar">
         <input type="text" id="nome" placeholder="Seu nome" required>
-        <input type="text" id="telefone" placeholder="Telefone" required>
+        <input type="tel" id="telefone" placeholder="Telefone" required>
         <input type="text" id="pet" placeholder="Tipo do pet" required>
 
         <select id="servico">
@@ -120,15 +122,17 @@
             <option>Spa</option>
         </select>
 
-        <button class="cta">Enviar no WhatsApp</button>
+        <button type="submit" class="cta">Enviar no WhatsApp</button>
     </form>
 </section>
 
-<footer>
-    <p>PetCare Premium © Todos os direitos reservados</p>
-</footer>
+    </main>
 
-<a href="https://wa.me/5511999999999" class="whatsapp">💬</a>
+    <footer>
+        <p>PetCare Premium © Todos os direitos reservados</p>
+    </footer>
+
+    <a href="https://wa.me/5511999999999" class="whatsapp" target="_blank" rel="noopener noreferrer">💬</a>
 
 <script src="lead.js"></script>
 </body>
