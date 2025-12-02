@@ -33,5 +33,6 @@ const btnMobile = document.getElementById("btn-mobile");
 const menu = document.getElementById("menu");
 
 btnMobile.addEventListener("click", () => {
-    menu.classList.toggle("active");
+  const isActive = menu.classList.toggle("active");
+  btnMobile.setAttribute("aria-expanded", String(isActive));
 });
